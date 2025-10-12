@@ -1,0 +1,16 @@
+.idea
+target
+*/target
+*.iml
+*/__pycache__
+.vscode
+*.gz
+*.api_keys
+*/live
+live
+*/logs
+*/log
+log
+logs
+.claude
+ft_userdata_live.log.[0-9]*
