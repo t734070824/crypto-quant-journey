@@ -1,16 +1,93 @@
+# IDE
 .idea
+.vscode
+*.iml
+*.code-workspace
+
+# Build
 target
 */target
-*.iml
+build/
+dist/
+
+# Python
 */__pycache__
-.vscode
-*.gz
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Environment & Secrets
+.env
+.env.local
+*.env
+secrets/
+*.key
+*.pem
 *.api_keys
-*/live
-live
-*/logs
-*/log
+api_keys.txt
+config.json
+credentials.json
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.db
+*.sqlite
+*.sqlite3
+data/*.csv
+data/*.json
+!data/README.md
+*.gz
+
+# Logs
 log
 logs
-.claude
+*/log
+*/logs
+*.log
+*.log.*
 ft_userdata_live.log.[0-9]*
+
+# Live trading
+live
+*/live
+
+# Backtests (sensitive results)
+backtests/results/
+backtests/data/
+!backtests/README.md
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+*.bak
+*.backup
+
+# Claude
+.claude
+
+# Personal
+PRIVATE/
+personal_notes/
+exchange_credentials/

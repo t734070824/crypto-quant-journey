@@ -1,115 +1,115 @@
-# Crypto Quant Journey
+# 加密货币量化交易之旅
 
-A comprehensive learning journey into cryptocurrency quantitative trading and market analysis.
+加密货币量化交易和市场分析的综合学习历程。
 
-## Overview
+## 项目概述
 
-This repository documents my exploration of cryptocurrency markets through quantitative analysis, algorithmic trading strategies, and data-driven decision making.
+本仓库记录了我通过量化分析、算法交易策略和数据驱动决策探索加密货币市场的过程。
 
-## Project Goals
+## 项目目标
 
-- Master cryptocurrency market analysis techniques
-- Develop and backtest quantitative trading strategies
-- Build automated trading systems
-- Understand market sentiment and news impact
-- Create a systematic approach to crypto trading
+- 掌握加密货币市场分析技术
+- 开发和回测量化交易策略
+- 构建自动化交易系统
+- 理解市场情绪和新闻影响
+- 创建系统化的加密货币交易方法
 
-## Repository Structure
+## 仓库结构
 
 ```
 crypto-quant-journey/
-├── analysis/          # Market analysis and research
-├── strategies/        # Trading strategies and algorithms
-├── data/             # Historical data and datasets
-├── notebooks/        # Jupyter notebooks for exploration
-├── scripts/          # Utility scripts and tools
-├── backtests/        # Backtesting results and reports
-└── docs/             # Documentation and learning notes
+├── analysis/          # 市场分析和研究
+├── strategies/        # 交易策略和算法
+├── data/             # 历史数据和数据集
+├── notebooks/        # Jupyter笔记本探索
+├── scripts/          # 工具脚本
+├── backtests/        # 回测结果和报告
+└── docs/             # 文档和学习笔记
 ```
 
-## Current Focus
+## 当前重点
 
-- News sentiment analysis and market impact assessment
-- Technical analysis and indicator development
-- Risk management frameworks
-- Automated trading system architecture
+- 新闻情绪分析和市场影响评估
+- 技术分析和指标开发
+- 风险管理框架
+- 自动化交易系统架构
 
-## Technologies & Tools
+## 技术和工具
 
-- **Languages**: Python, JavaScript/TypeScript
-- **Data Analysis**: Pandas, NumPy, Matplotlib
-- **Machine Learning**: scikit-learn, TensorFlow (planned)
-- **Trading**: ccxt, backtrader, freqtrade (planned)
-- **APIs**: Cryptocurrency exchange APIs, news APIs
+- **编程语言**：Python、JavaScript/TypeScript
+- **数据分析**：Pandas、NumPy、Matplotlib
+- **机器学习**：scikit-learn、TensorFlow（计划中）
+- **交易工具**：ccxt、backtrader、freqtrade（计划中）
+- **API接口**：加密货币交易所API、新闻API
 
-## Learning Path
+## 学习路径
 
-### Phase 1: Foundation (Current)
-- [ ] Market fundamentals and terminology
-- [ ] Basic technical analysis
-- [ ] News impact analysis
-- [ ] Data collection and processing
+### 阶段一：基础（当前）
+- [ ] 市场基础知识和术语
+- [ ] 基础技术分析
+- [ ] 新闻影响分析
+- [ ] 数据采集和处理
 
-### Phase 2: Strategy Development
-- [ ] Indicator-based strategies
-- [ ] Mean reversion and momentum strategies
-- [ ] Market making concepts
-- [ ] Backtesting framework
+### 阶段二：策略开发
+- [ ] 基于指标的策略
+- [ ] 均值回归和动量策略
+- [ ] 做市商概念
+- [ ] 回测框架
 
-### Phase 3: Advanced Topics
-- [ ] Machine learning for price prediction
-- [ ] Sentiment analysis automation
-- [ ] Portfolio optimization
-- [ ] Live trading deployment
+### 阶段三：高级主题
+- [ ] 机器学习价格预测
+- [ ] 情绪分析自动化
+- [ ] 投资组合优化
+- [ ] 实盘交易部署
 
-### Phase 4: Production
-- [ ] Automated trading bot
-- [ ] Risk management system
-- [ ] Performance monitoring
-- [ ] Continuous optimization
+### 阶段四：生产环境
+- [ ] 自动化交易机器人
+- [ ] 风险管理系统
+- [ ] 性能监控
+- [ ] 持续优化
 
-## Key Learnings
+## 关键学习
 
-### Market Analysis
-- Geopolitical events have significant impact on crypto markets
-- Bitcoin often acts as a leading indicator for altcoins
-- Risk-off sentiment drives flight to stablecoins and BTC
+### 市场分析
+- 地缘政治事件对加密市场有重大影响
+- 比特币通常是山寨币的领先指标
+- 风险规避情绪驱动资金流向稳定币和BTC
 
-### Trading Principles
-- Position sizing and risk management are critical
-- Avoid high leverage in volatile markets
-- Scale in gradually rather than all-at-once entries
-- Always have a predefined exit strategy
+### 交易原则
+- 仓位管理和风险控制至关重要
+- 在波动市场中避免高杠杆
+- 分批建仓而非一次性全仓
+- 始终有预定义的退出策略
 
-## Resources
+## 学习资源
 
-### Books
-- "Algorithmic Trading" by Ernest P. Chan
-- "Quantitative Trading" by Ernest P. Chan
-- "Trading and Exchanges" by Larry Harris
+### 书籍
+- 《算法交易》- Ernest P. Chan
+- 《量化交易》- Ernest P. Chan
+- 《交易与交易所》- Larry Harris
 
-### Courses & Tutorials
-- (Add your learning resources here)
+### 课程和教程
+- （在此添加你的学习资源）
 
-### Communities
-- Reddit: r/algotrading, r/cryptocurrency
-- Twitter: Crypto analysts and traders
-- Discord: Trading communities
+### 社区
+- Reddit：r/algotrading、r/cryptocurrency
+- Twitter：加密分析师和交易员
+- Discord：交易社区
 
-## Disclaimer
+## 免责声明
 
-This repository is for educational purposes only. The strategies and analysis contained herein do not constitute financial advice. Cryptocurrency trading involves substantial risk of loss. Always do your own research and never invest more than you can afford to lose.
+本仓库仅供教育目的。其中包含的策略和分析不构成财务建议。加密货币交易涉及重大损失风险。请始终进行自己的研究，切勿投资超过你能承受的损失。
 
-## Progress Tracking
+## 进度追踪
 
-**Started**: October 2025
+**开始时间**：2025年10月
 
-**Current Status**: Foundation phase - Learning market analysis and news impact assessment
+**当前状态**：基础阶段 - 学习市场分析和新闻影响评估
 
-## Contact & Collaboration
+## 联系与协作
 
-Open to discussions, feedback, and collaboration with fellow learners and traders.
+欢迎与其他学习者和交易者讨论、反馈和协作。
 
 ---
 
-*"In trading, the goal is not to be right, but to make money."*
+*"在交易中，目标不是正确，而是赚钱。"*
