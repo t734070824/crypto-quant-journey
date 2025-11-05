@@ -32,9 +32,19 @@ def calculate_ma(prices: np.ndarray, period: int) -> np.ndarray:
         >>> ma = calculate_ma(prices, 3)
         >>> print(ma)  # [101.0, 102.67, 104.33]
     """
+
     # TODO: 实现MA计算
     # 提示: 使用 np.convolve() 或 rolling window
-    pass
+
+    i  = 2
+    moving_averages = []
+    while i <= prices.size:
+        if i >= period:
+            window_average = np.sum(prices[i - period:i]) / period
+            moving_averages.append(window_average)
+        i += 1
+    print(moving_averages)
+    return np.asarray(moving_averages)
 
 
 def calculate_ema(prices: np.ndarray, period: int) -> np.ndarray:
@@ -59,7 +69,16 @@ def calculate_ema(prices: np.ndarray, period: int) -> np.ndarray:
     """
     # TODO: 实现EMA计算
     # 提示: 使用循环或向量化计算
-    pass
+    i  = 1
+    α = 2 / (period + 1)
+    moving_averages = []
+    moving_averages.append(prices[0])
+    while i < prices.size:
+        window_average = α * prices[i] + (1 - α) * moving_averages[i - 1]
+        moving_averages.append(window_average)
+        i += 1
+    print(moving_averages)
+    return np.asarray(moving_averages)
 
 
 def calculate_rsi(prices: np.ndarray, period: int = 14) -> np.ndarray:
@@ -221,6 +240,9 @@ def test_indicators():
 
     # 创建测试数据
     prices = np.array([100, 102, 101, 105, 107, 106, 108, 110, 109, 111, 113, 112, 115, 117, 116])
+
+    prices2 = np.array([100, 102, 101, 105, 107])
+    calculate_ma(prices2, 3)
 
     # 测试MA
     print("\n1. 测试MA:")

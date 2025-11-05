@@ -99,3 +99,4 @@ print(b.sum(axis=0))  # 列求和
 
 
 
+
